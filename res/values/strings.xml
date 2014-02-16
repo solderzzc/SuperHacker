@@ -28,7 +28,7 @@
  */
 -->
 <resources>
-	<string name="app_name">PDroid Manager</string> <!-- the app name as it appears in the launcher -->
+	<string name="app_name">Super Hacker</string> <!-- the app name as it appears in the launcher -->
 
 	<!-- Names and descriptions of the permissions defined by this app for the Android operating system -->
 	<string name="permission_label_writeprivacysettings">Modify PDroid settings</string>
