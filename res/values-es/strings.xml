@@ -28,7 +28,7 @@
  */
 -->
 <resources>
-	<string name="app_name">PDroid Manager</string> <!-- the app name as it appears in the launcher -->
+	<string name="app_name">SuperHacker</string> <!-- the app name as it appears in the launcher -->
 
 	<!-- Names and descriptions of the permissions defined by this app for the Android operating system -->
 	<string name="permission_label_writeprivacysettings">Modificar ajustes de PDroid</string>
@@ -44,7 +44,7 @@
 		<string name="app_list_menu_refresh">Regenerar Listado de Aplicaciones</string> <!-- action bar button to reload the list of apps -->
 		<string name="app_list_menu_preferences">Preferencias</string> <!-- action bar button to open the preferences screen -->
 		<string name="app_list_menu_filter">Filtro</string> <!-- action bar button to open the filtering interface -->
-		<string name="title_activity_main">PDroid Manager</string> <!-- title in the action bar of the app list screen: not visible? -->
+		<string name="title_activity_main">SuperHacker</string> <!-- title in the action bar of the app list screen: not visible? -->
 
 		<string name="app_list_app_icon_text">Icono de Aplicación</string>
 		<string name="app_list_has_internet_indicator">Indicador de privilegios de acceso a Internet</string>
@@ -107,14 +107,14 @@
 		<!-- end entries in the preferences text list -->
 
 		<string name="preferences_apprestart_title">Reinicio de la Aplicación</string>
-		<string name="preferences_apprestart_message">PDroid Manager se reiniciará ahora para aplicar los cambios en la configuración</string>
+		<string name="preferences_apprestart_message">SuperHacker se reiniciará ahora para aplicar los cambios en la configuración</string>
 
 		<string name="preferences_chooselangage_alerttitle">Elegir idioma</string> <!-- text for language selection dialog box (when you select 'change language' option)  -->
 
 		<string name="restore_dialog_title">Restaurar ajustes</string><!-- Title for the 'restore backup' dialog box -->
 		<!-- restoring backups error messages -->
 		<string name="restore_no_backups">No hay copias de seguridad disponibles para restaurar</string>
-		<string name="restore_signature_invalid">La firma digital del fichero de copia de seguridad seleccionar no corresponde con la copia de seguridad. La copia de seguridad puede haber sido modificada por otro programa. Desinstalar y reinstalar PDroid Manager tras haber crear la copia de seguridad también puede generar este mensaje.</string>
+		<string name="restore_signature_invalid">La firma digital del fichero de copia de seguridad seleccionar no corresponde con la copia de seguridad. La copia de seguridad puede haber sido modificada por otro programa. Desinstalar y reinstalar SuperHacker tras haber crear la copia de seguridad también puede generar este mensaje.</string>
 		<string name="restore_signature_missing">No se encontró una firma digital para el fichero de copia de seguridad seleccionado. No hay forma de verificar que el fichero de copia de seguridad no ha sido modificado por otro programa desde que fue creado.</string>
 		<string name="restore_dialog_continue_prompt">¿Continuar con la restauración de los ajustes desde el fichero?</string> <!-- Prompt displayed after error message in restore from backup dialog box -->
 
@@ -265,9 +265,9 @@
 	<!-- END FUTURE FEATURE STRINGS -->
 	
 	<!-- dialog boxes for credits/about info which can be opened from the preferences list -->
-	<string name="credits_dialog_title">Créditos de PDroid Manager</string>
+	<string name="credits_dialog_title">Créditos de SuperHacker</string>
 	<string name="credits_dialog_body"><![CDATA[
-<h2>PDroid Manager</h2>
+<h2>SuperHacker</h2>
 <p><i>Desarrollo: Simeon Morgan y Mateor &lt;<a href="mailto:mateornaut@gmail.com">mateornaut@gmail.com</a>&gt;</i><br />
 Github: <a href="https://github.com/mateor/pdroid-manager/">mateor/pdroid-manager</a><br />
 XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=4342828">mateorod</a></p>
@@ -284,9 +284,9 @@ XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=4342828">m
 <i>TommieNL</i> (<a href="https://github.com/TommieNL">github</a>): Traducción al Holandés<br />
 <i>wbedard</i> (<a href="http://forum.xda-developers.com/member.php?u=2769491">xda</a>): Descripciones originales en Inglés para los ajustes<br />
 <i>xLambChopsx</i> (<a href="https://github.com/xLambChopsx">github</a>): Contribuciones de código y correcciones de errores<br />
-<a href="http://forum.xda-developers.com/showthread.php?p=34190204">Hilo de PDroid Manager en xda-developers.com (en inglés)</a></p>
+<a href="http://forum.xda-developers.com/showthread.php?p=34190204">Hilo de SuperHacker en xda-developers.com (en inglés)</a></p>
 </p>
-<h2>PDroid Manager depende del meticuloso trabajo hecho en PDroid Core por otros</h2>
+<h2>SuperHacker depende del meticuloso trabajo hecho en PDroid Core por otros</h2>
 <h3>PDroid 2.0 Core</h3>
 <p><i>Desarrollo: CollegeDev (<a href="http://forum.xda-developers.com/member.php?u=4711230">xda</a>)</i><br />
 <a href="http://forum.xda-developers.com/showthread.php?t=1923576">Hilo de PDroid 2.0 en xda-developers.com (en inglés)</a></p>
@@ -299,13 +299,13 @@ XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=4342828">m
 
 <h2>Por favor, ten en cuenta lo siguiente:</h2>
 <p>Esta aplicación <i>no está refrendada</i> por Syvat, Pastime, or CollegeDev.
-Por favor <i>no</i> busques ayuda para la aplicación PDroid Manager en sus foros.</p>
+Por favor <i>no</i> busques ayuda para la aplicación SuperHacker en sus foros.</p>
 ]]></string>
 
-	<string name="about_dialog_title">Acerca de PDroid Manager</string>
+	<string name="about_dialog_title">Acerca de SuperHacker</string>
 	<string name="about_dialog_body"><![CDATA[
-<p><i>PDroid Manager</i> es una aplicación de gestión de ajustes para el servicio de Privacidad proporcionad por PDroid 2.0 Core. Sirve como una alternativa OpenSource para la aplicación PDroid 2.0 de CollegeDev.</p>
-<h2>PDroid Manager está actualmente en estado alpha</h2>
+<p><i>SuperHacker</i> es una aplicación de gestión de ajustes para el servicio de Privacidad proporcionad por PDroid 2.0 Core. Sirve como una alternativa OpenSource para la aplicación PDroid 2.0 de CollegeDev.</p>
+<h2>SuperHacker está actualmente en estado alpha</h2>
 <h3>Si encuentras un problema:</h3>
 <b>Primero, comprueba si el problema que has descubierto es una incidencia conocida, mediante <a href="https://github.com/wsot/pdroid-manager/issues"> buscando incidencias en mi github</a>.</b> Si ya ha sido notificada, pero tienes información adicional que añadir, entonces adjúntalo a la incidencia en github. De forma alternativa, puedes publicarlo aquí pero por favor haz referencia claramente a la incidencia existente en github cuando lo hagas así.
 <h4>Si no es una incidencia conocida en github:</h4>
@@ -335,32 +335,32 @@ Modificar o derivar versiones de la aplicación de pdroid-manager deben usar
 un nombre alternativo, diferente al nombre de pdroid-manager.</p>
 ]]></string>
 	
-	<!-- the following sections of text are 'errors' for when a user loads PDroid Manager,
+	<!-- the following sections of text are 'errors' for when a user loads SuperHacker,
 	but doesn't have PDroid installed, or some other problem like that.
 	pdroid_error_intro is shown in all cases, and the strings below it only when
 	the error fits the problem -->
 		<string name="pdroid_error_intro"><![CDATA[
-<h4>Bienvenido a <i>PDroid Manager</i>, una alternativa al la gestión de ajustes de aplicaciones para PDroid 2.0</h4>
-<p>Se ha detectado un problema al interactuar con el núcleo de PDroid y PDroid Manager no puede continuar su carga. El núcleo de PDroid provee el <i>servicio de privacidad</i> del que depende PDroid Manager, por lo que el fallo en el servicio de privacidad conlleva que PDroid Manager no sea funcional.</p>
+<h4>Bienvenido a <i>SuperHacker</i>, una alternativa al la gestión de ajustes de aplicaciones para PDroid 2.0</h4>
+<p>Se ha detectado un problema al interactuar con el núcleo de PDroid y SuperHacker no puede continuar su carga. El núcleo de PDroid provee el <i>servicio de privacidad</i> del que depende SuperHacker, por lo que el fallo en el servicio de privacidad conlleva que SuperHacker no sea funcional.</p>
 ]]></string>
 
-		<string name="pdroid_error_conclusion"><![CDATA[<p>Una instalación o actualización del núcleo de PDroid <b>no puede</b> ser realizada automáticamente. Debes aplicar un parche más reciente de PDroid 2.0 a tu ROM para obtener una versión soportada del núcleo de PDroid. Para más soporte, presine el botón debajo para abrir el hilo de PDroid Manager en el foro XDA developers (en inglés).</p>]]></string>
+		<string name="pdroid_error_conclusion"><![CDATA[<p>Una instalación o actualización del núcleo de PDroid <b>no puede</b> ser realizada automáticamente. Debes aplicar un parche más reciente de PDroid 2.0 a tu ROM para obtener una versión soportada del núcleo de PDroid. Para más soporte, presine el botón debajo para abrir el hilo de SuperHacker en el foro XDA developers (en inglés).</p>]]></string>
 			
 		<string name="pdroid_error_wrong_version"><![CDATA[
-<h2>La versión %s de PDroid 2.0 ha sido detectada en tu dispositivo.<br /><i>PDroid Manager</i> requiere que la versión PDroid 2.0 v.1.48 o superior esté incluida en la ROM del dispositivo.</h2>]]></string>
+<h2>La versión %s de PDroid 2.0 ha sido detectada en tu dispositivo.<br /><i>SuperHacker</i> requiere que la versión PDroid 2.0 v.1.48 o superior esté incluida en la ROM del dispositivo.</h2>]]></string>
 	
 	<string name="pdroid_error_not_installed"><![CDATA[
-<h2>El núcleo de PDroid no se ha detectado en tu dispositivo.<br /><i>PDroid Manager</i> requiere que la versión PDroid 2.0 v.1.48 o superior esté incluida en la ROM del dispositivo.</h2>
+<h2>El núcleo de PDroid no se ha detectado en tu dispositivo.<br /><i>SuperHacker</i> requiere que la versión PDroid 2.0 v.1.48 o superior esté incluida en la ROM del dispositivo.</h2>
 ]]></string>
 
 	<string name="pdroid_error_permission"><![CDATA[
-<h4>Bienvenido a <i>PDroid Manager</i>, una alternativa al la gestión de ajustes de aplicaciones para PDroid 2.0</h4>
-<p>Se ha detectado un problema que impide el funcionamiento de PDroid Manager.</p> 
-<h2>PDroid Manager y la aplicación CollegeDev\'s PDroid 2.0 no pueden ser instaladas en el mismo dispositivo sin pasos adicionales</h2>
-<p>Debido al la forma en que los permisos de Android permissions se usan en PDroid, PDroid Manager y la aplicación CollegeDev\'s PDroid 2.0 no pueden estar instaladas al mismo tiempo y funcionando correctamente. Esto puede solventarse si se vuelven a firmar ambos paquetes con una nueva clave, tal y como se describe en el hilo de soporte en XDA-developers.</p><p><b>Atención:</b> desinstalando la aplicación CollegeDev\'s PDroid 2.0 <i>no borrará</i> tus ajustes de PDroid: puedes desinstalarla e instalar PDroid Manager y tus ajustes permanecerán intactos.</p>
-<p><i>Para resolver este problema, necesitas desinstalar la aplicación CollegeDev\'s PDroid 2.0, <b>y entonces desinstalar y reinstalar PDroid Manager</b>.</i></p>
+<h4>Bienvenido a <i>SuperHacker</i>, una alternativa al la gestión de ajustes de aplicaciones para PDroid 2.0</h4>
+<p>Se ha detectado un problema que impide el funcionamiento de SuperHacker.</p> 
+<h2>SuperHacker y la aplicación CollegeDev\'s PDroid 2.0 no pueden ser instaladas en el mismo dispositivo sin pasos adicionales</h2>
+<p>Debido al la forma en que los permisos de Android permissions se usan en PDroid, SuperHacker y la aplicación CollegeDev\'s PDroid 2.0 no pueden estar instaladas al mismo tiempo y funcionando correctamente. Esto puede solventarse si se vuelven a firmar ambos paquetes con una nueva clave, tal y como se describe en el hilo de soporte en XDA-developers.</p><p><b>Atención:</b> desinstalando la aplicación CollegeDev\'s PDroid 2.0 <i>no borrará</i> tus ajustes de PDroid: puedes desinstalarla e instalar SuperHacker y tus ajustes permanecerán intactos.</p>
+<p><i>Para resolver este problema, necesitas desinstalar la aplicación CollegeDev\'s PDroid 2.0, <b>y entonces desinstalar y reinstalar SuperHacker</b>.</i></p>
 ]]></string>
 
-	<string name="pdroid_get_support">Abrir el hilo de soporte de PDroid Manager en XDA developers (en inglés)</string>
+	<string name="pdroid_get_support">Abrir el hilo de soporte de SuperHacker en XDA developers (en inglés)</string>
 	
 </resources>

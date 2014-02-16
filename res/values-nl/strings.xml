@@ -29,7 +29,7 @@
  */
 -->
 <resources>
-	<string name="app_name">PDroid Manager</string> <!-- the app name as it appears in the launcher -->
+	<string name="app_name">SuperHacker</string> <!-- the app name as it appears in the launcher -->
 
 	<!-- Names and descriptions of the permissions defined by this app for the Android operating system -->
 	<string name="permission_label_writeprivacysettings">Aanpassen van PDroid-instellingen</string>
@@ -45,7 +45,7 @@
 		<string name="app_list_menu_refresh">Herladen Applicatielijst</string> <!-- action bar button to reload the list of apps -->
 		<string name="app_list_menu_preferences">Instellingen</string> <!-- action bar button to open the preferences screen -->
 		<string name="app_list_menu_filter">Filter</string> <!-- action bar button to open the filtering interface -->
-		<string name="title_activity_main">PDroid Manager</string> <!-- title in the action bar of the app list screen: not visible? -->
+		<string name="title_activity_main">SuperHacker</string> <!-- title in the action bar of the app list screen: not visible? -->
 
 		<string name="app_list_app_icon_text">Applicatieicoon</string>
 		<string name="app_list_has_internet_indicator">Indicatie van Internet toegang privilege</string>
@@ -108,14 +108,14 @@
 		<!-- end entries in the preferences text list -->
 
 		<string name="preferences_apprestart_title">Herstart applicatie</string>
-		<string name="preferences_apprestart_message">PDroid Manager zal nu herstarten om de aanpassingen door te voeren.</string>
+		<string name="preferences_apprestart_message">SuperHacker zal nu herstarten om de aanpassingen door te voeren.</string>
 
 		<string name="preferences_chooselangage_alerttitle">Kies taal</string> <!-- text for language selection dialog box (when you select 'change language' option)  -->
 
 		<string name="restore_dialog_title">Herstel instellingen</string><!-- Title for the 'restore backup' dialog box -->
 		<!-- restoring backups error messages -->
 		<string name="restore_no_backups">Er zijn geen backups beschikbaar om te herstellen.</string>
-		<string name="restore_signature_invalid">De digitale handtekening voor het geselecteerde backup bestand komt niet overeen. De backup kan aangepast zijn door een ander programma. Het opnieuw installeren van PDroid Manager sinds u de backup gemaakt heeft kan dit veroorzaken.</string>
+		<string name="restore_signature_invalid">De digitale handtekening voor het geselecteerde backup bestand komt niet overeen. De backup kan aangepast zijn door een ander programma. Het opnieuw installeren van SuperHacker sinds u de backup gemaakt heeft kan dit veroorzaken.</string>
 		<string name="restore_signature_missing">De digitale handtekening voor de backup kan niet gevonden worden. Er is geen manier om te verifieren dat de backup niet is aangepast door een ander programma sinds hij gemaakt is.</string>
 		<string name="restore_dialog_continue_prompt">Doorgaan met herstellen van de instellingen uit dit bestand?</string> <!-- Prompt displayed after error message in restore from backup dialog box -->
 

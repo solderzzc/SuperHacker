@@ -29,14 +29,14 @@
  */
 -->
 <resources>
-	<string name="app_name">PDroid Manager</string> <!-- the app name as it appears in the launcher -->
+	<string name="app_name">SuperHacker</string> <!-- the app name as it appears in the launcher -->
 
 	<!-- Names and descriptions of the permissions defined by this app for the Android operating system -->
 	<string name="permission_label_writeprivacysettings">更改 PDroid 规则</string>
 	<string name="permission_description_writeprivacysettings">允许修改 PDroid 相关程序规则。</string>
 	<string name="permission_label_readprivacysettings">读取 PDroid 规则</string>
 	<string name="permission_description_readprivacysettings">允许读取 PDroid 相关程序规则。</string>
-	<string name="permission_label_manageprivacycontrollers">设置 PDroid Manager 应用程序</string>
+	<string name="permission_label_manageprivacycontrollers">设置 SuperHacker 应用程序</string>
 	<string name="permission_description_manageprivacycontrollers">允许其它应用程序修改 PDroid 规则。</string>
 
 	<!-- Application list screen -->
@@ -45,7 +45,7 @@
 		<string name="app_list_menu_refresh">重新获取应用程序列表</string> <!-- action bar button to reload the list of apps -->
 		<string name="app_list_menu_preferences">首选项</string> <!-- action bar button to open the preferences screen -->
 		<string name="app_list_menu_filter">过滤</string> <!-- action bar button to open the filtering interface -->
-		<string name="title_activity_main">PDroid Manager</string> <!-- title in the action bar of the app list screen: not visible? -->
+		<string name="title_activity_main">SuperHacker</string> <!-- title in the action bar of the app list screen: not visible? -->
 
 		<string name="app_list_app_icon_text">应用程序图标</string>
 		<string name="app_list_has_internet_indicator">网络连接权限指示</string>
@@ -108,14 +108,14 @@
 	<!-- end entries in the preferences text list -->
 
 		<string name="preferences_apprestart_title">重新启动应用程序</string>
-		<string name="preferences_apprestart_message">PDroid Manager 将重新启动以更新设置</string>
+		<string name="preferences_apprestart_message">SuperHacker 将重新启动以更新设置</string>
 
 		<string name="preferences_chooselangage_alerttitle">选择语言设置</string> <!-- text for language selection dialog box (when you select 'change language' option)  -->
 
 		<string name="restore_dialog_title">恢复设置</string><!-- Title for the 'restore backup' dialog box -->
 		<!-- restoring backups error messages -->
 		<string name="restore_no_backups">没有可恢复的备份文件</string>
-		<string name="restore_signature_invalid">当前选择的备份文件签名与备份不符。备份文件可能已被其它程序修改，在创建备份文件之后删除并重新安装 PDroid Manager也有可能会造成此问题。</string>
+		<string name="restore_signature_invalid">当前选择的备份文件签名与备份不符。备份文件可能已被其它程序修改，在创建备份文件之后删除并重新安装 SuperHacker也有可能会造成此问题。</string>
 		<string name="restore_signature_missing">当前选择的备份文件没有签名，无法判断备份文件是否已被其它程序修改。</string>
 		<string name="restore_dialog_continue_prompt">仍然使用此备份文件恢复设置吗？</string> <!-- Prompt displayed after error message in restore from backup dialog box -->
 
@@ -266,9 +266,9 @@
 	<!-- END FUTURE FEATURE STRINGS -->
 	
 	<!-- dialog boxes for credits/about info which can be opened from the preferences list -->
-	<string name="credits_dialog_title">PDroid Manager 制作人员</string>
+	<string name="credits_dialog_title">SuperHacker 制作人员</string>
 	<string name="credits_dialog_body"><![CDATA[
-<h2>PDroid Manager</h2>
+<h2>SuperHacker</h2>
 <p><i>作者：Simeon Morgan &lt;<a href="mailto:smorgan@digitalfeed.net">smorgan@digitalfeed.net</a>&gt;</i><br />
 Github: <a href="https://github.com/wsot/">wsot</a><br />
 XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=3602796">FFU5y</a></p>
@@ -284,9 +284,9 @@ XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=3602796">F
 <i>TommieNL</i> (<a href="https://github.com/TommieNL">github</a>): Dutch translation
 <i>wbedard</i> (<a href="http://forum.xda-developers.com/member.php?u=2769491">xda</a>): Original English descriptions for the settings<br />
 <i>xLambChopsx</i> (<a href="https://github.com/xLambChopsx">github</a>): Code contributions and bugfixes
-<a href="http://forum.xda-developers.com/showthread.php?p=34190204">PDroid Manager thread at xda-developers.com</a></p>
+<a href="http://forum.xda-developers.com/showthread.php?p=34190204">SuperHacker thread at xda-developers.com</a></p>
 </p>
-<h2>PDroid Manager 依赖于 PDroid 的贡献者：</h2>
+<h2>SuperHacker 依赖于 PDroid 的贡献者：</h2>
 <h3>OpenPDroid 核心</h3>
 <p>
 <i>FFU5y (<a href="https://github.com/wsot/">github</a> | <a href="http://forum.xda-developers.com/member.php?u=3602796">xda</a>)</i><br />
@@ -306,13 +306,13 @@ XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=3602796">F
 
 <h2>请注意：</h2>
 <p>本应用程序<i>不是</i> Syvat、Pastime 或 CollegeDev 的作品，
-请<i>不要</i>在他们的帖子中寻求关于 PDroid Manager 的帮助。</p>
+请<i>不要</i>在他们的帖子中寻求关于 SuperHacker 的帮助。</p>
 ]]></string>
 
-	<string name="about_dialog_title">关于 PDroid Manager</string>
+	<string name="about_dialog_title">关于 SuperHacker</string>
 	<string name="about_dialog_body"><![CDATA[
-<p><i>PDroid Manager</i> 是一个基于 OpenPDroid 或 PDroid 2.0 核心的隐私权限管理软件，可作为 CollegeDev 的 PDroid 2.0 应用程序的开源替代。</p>
-<h2>PDroid Manager 正在 Alpha 阶段</h2>
+<p><i>SuperHacker</i> 是一个基于 OpenPDroid 或 PDroid 2.0 核心的隐私权限管理软件，可作为 CollegeDev 的 PDroid 2.0 应用程序的开源替代。</p>
+<h2>SuperHacker 正在 Alpha 阶段</h2>
 <h3>如果您发现问题：</h3>
 <b>首先请检查此问题是否为已知问题：<a href="https://github.com/wsot/pdroid-manager/issues">查看我的 Github 问题列表</a>。</b>如果问题已经被记录，但您有另外的建议和意见，请将您的想法贴到相关问题上。或者，您也可以提交新问题，但请清晰的给出已存在问题的链接。
 <h4>如果您发现了新问题：</h4>
@@ -342,31 +342,31 @@ Modified or derivative versions of the pdroid-manager application must use an
 alternative name, rather than the name pdroid-manager.</p>
 ]]></string>
 	
-	<!-- the following sections of text are 'errors' for when a user loads PDroid Manager,
+	<!-- the following sections of text are 'errors' for when a user loads SuperHacker,
 	but doesn't have PDroid installed, or some other problem like that.
 	pdroid_error_intro is shown in all cases, and the strings below it only when
 	the error fits the problem -->
 		<string name="pdroid_error_intro"><![CDATA[
-<h4>欢迎使用 <i>PDroid Manager</i>，一个基于 OpenPDroid 或 PDroid 2.0 核心的隐私权限管理软件</h4>
-<p>在读取 PDroid 核心时发生问题，PDroid Manager 无法继续工作。PDroid 核心提供了 PDroid Manager 依赖的 <i>隐私服务</i>，所以 PDroid Manager 无法继续工作。</p>
+<h4>欢迎使用 <i>SuperHacker</i>，一个基于 OpenPDroid 或 PDroid 2.0 核心的隐私权限管理软件</h4>
+<p>在读取 PDroid 核心时发生问题，SuperHacker 无法继续工作。PDroid 核心提供了 SuperHacker 依赖的 <i>隐私服务</i>，所以 SuperHacker 无法继续工作。</p>
 ]]></string>
 
-		<string name="pdroid_error_conclusion"><![CDATA[<p>应用程序<b>无法</b>自动安装与升级 PDroid 核心，您必须手动为您的 ROM 打 PDroid 2.0 补丁。请求支援：按下面的按钮打开 PDroid Manager 在 XDA 开发者论坛上的相关帖子。</p>]]></string>
+		<string name="pdroid_error_conclusion"><![CDATA[<p>应用程序<b>无法</b>自动安装与升级 PDroid 核心，您必须手动为您的 ROM 打 PDroid 2.0 补丁。请求支援：按下面的按钮打开 SuperHacker 在 XDA 开发者论坛上的相关帖子。</p>]]></string>
 			
 		<string name="pdroid_error_wrong_version"><![CDATA[
-<h2>已在您的设备中检测到 OpenPDroid 或 PDroid 2.0 版本 s%。<br /><i>PDroid Manager</i> 要求 OpenPDroid 或 PDroid 2.0 版本 1.48 或更高版本的程序集成在设备 ROM 中。</h2>]]></string>
+<h2>已在您的设备中检测到 OpenPDroid 或 PDroid 2.0 版本 s%。<br /><i>SuperHacker</i> 要求 OpenPDroid 或 PDroid 2.0 版本 1.48 或更高版本的程序集成在设备 ROM 中。</h2>]]></string>
 	
 	<string name="pdroid_error_not_installed"><![CDATA[
-<h2>未在您的设备中检测到 PDroid 核心<br /><i>PDroid Manager</i> 要求 OpenPDroid 或 PDroid 2.0 版本 1.48 或更高版本的程序集成在设备 ROM 中。</h2>]]></string>
+<h2>未在您的设备中检测到 PDroid 核心<br /><i>SuperHacker</i> 要求 OpenPDroid 或 PDroid 2.0 版本 1.48 或更高版本的程序集成在设备 ROM 中。</h2>]]></string>
 
 	<string name="pdroid_error_permission"><![CDATA[
-<h4>欢迎使用 <i>PDroid Manager</i>，一个基于 OpenPDroid 或 PDroid 2.0 核心的隐私权限管理软件</h4>
-<p>在 PDroid Manager 操作过程中检测到错误。</p> 
-<h2>PDroid Manager 与 CollegeDev 的 PDroid 2.0 应用程序无法共存。</h2>
-<p>因为 Android 的权限管理均被 PDroid 调用, 所以 PDroid Manager 与 CollegeDev 的 PDroid 2.0 应用程序不能同时使用。 此问题可以通过对安装包重签名实现，具体方法见 XDA 开发者论坛的相关帖子。</p><p><b>注意：</b>卸载 CollegeDev 的 PDroid 2.0 应用程序<i>不会</i>删除 PDroid 设置，您可以卸载 PDroid 2.0 并安装 PDroid Manager，您的设置会保留。</p>
-<p><i>为解决此问题，您可以卸载 PDroid 2.0，<b>然后卸载并重新安装 PDroid Manager</b>。</i></p>
+<h4>欢迎使用 <i>SuperHacker</i>，一个基于 OpenPDroid 或 PDroid 2.0 核心的隐私权限管理软件</h4>
+<p>在 SuperHacker 操作过程中检测到错误。</p> 
+<h2>SuperHacker 与 CollegeDev 的 PDroid 2.0 应用程序无法共存。</h2>
+<p>因为 Android 的权限管理均被 PDroid 调用, 所以 SuperHacker 与 CollegeDev 的 PDroid 2.0 应用程序不能同时使用。 此问题可以通过对安装包重签名实现，具体方法见 XDA 开发者论坛的相关帖子。</p><p><b>注意：</b>卸载 CollegeDev 的 PDroid 2.0 应用程序<i>不会</i>删除 PDroid 设置，您可以卸载 PDroid 2.0 并安装 SuperHacker，您的设置会保留。</p>
+<p><i>为解决此问题，您可以卸载 PDroid 2.0，<b>然后卸载并重新安装 SuperHacker</b>。</i></p>
 ]]></string>
 
-	<string name="pdroid_get_support">浏览 PDroid Manager 在 XDA 开发者论坛上的相关帖子。</string>
+	<string name="pdroid_get_support">浏览 SuperHacker 在 XDA 开发者论坛上的相关帖子。</string>
 
 </resources>

@@ -367,7 +367,7 @@ public class PreferencesListFragment extends ListFragment {
     
     
     /**
-     * Open the PDroid Manager thread in XDA-developers
+     * Open the SuperHacker thread in XDA-developers
      */
     private void openXDA() {
     	final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(GlobalConstants.PDROIDMANAGER_XDA_THREAD_URL));

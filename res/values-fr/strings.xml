@@ -266,9 +266,9 @@
 	<!-- END FUTURE FEATURE STRINGS -->
 	
 	<!-- dialog boxes for credits/about info which can be opened from the preferences list -->
-	<string name="credits_dialog_title">PDroid Manager Credits</string>
+	<string name="credits_dialog_title">SuperHacker Credits</string>
 	<string name="credits_dialog_body"><![CDATA[
-<h2>PDroid Manager</h2>
+<h2>SuperHacker</h2>
 <p><i>Dévelopment: Simeon Morgan, Mateor &lt;<a href="mailto:mateornaut@gmail.com">mateornaut@gmail.com</a>&gt;</i><br />
 Github: <a href="https://github.com/mateor/pdroid-manager/">mateor/pdroid-manager</a><br />
 XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=4342828">mateorod</a></p>
@@ -284,9 +284,9 @@ XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=4342828">m
 <i>TamCore</i> (<a href="https://github.com/TamCore">github</a> | <a href="http://forum.xda-developers.com/member.php?u=2728547">xda</a>): Création du Makefile, Traduction allemande<br />
 <i>wbedard</i> (<a href="http://forum.xda-developers.com/member.php?u=2769491">xda</a>): Descriptions originelles en anglais pour les options de configuration<br />
 <i>xLambChopsx</i> (<a href="https://github.com/xLambChopsx">github</a>): Contributions de code et corrections de bugs<br />
-<a href="http://forum.xda-developers.com/showthread.php?p=34190204">Fil de discussion pour PDroid Manager sur xda-developers.com</a></p>
+<a href="http://forum.xda-developers.com/showthread.php?p=34190204">Fil de discussion pour SuperHacker sur xda-developers.com</a></p>
 </p>
-<h2>PDroid Manager est dépendant du bon travail fournit par d\'autres sur le coeur de PDroid</h2>
+<h2>SuperHacker est dépendant du bon travail fournit par d\'autres sur le coeur de PDroid</h2>
 <h3>OpenPDroid</h3>
 <p>
 <a href="https://github.com/OpenPDroid/">OpenPDroid github</a><br />
@@ -307,13 +307,13 @@ XDA-developers: <a href="http://forum.xda-developers.com/member.php?u=4342828">m
 
 <h2>Attention:</h2>
 <p>Cette application <i>n\'est pas approuvée</i> par Syvat, Pastime, ou CollegeDev.
-S\'il vous plait <i>ne demandez pas</i> de l\'aide concernant PDroid Manager dans leurs fils de discussion.</p>
+S\'il vous plait <i>ne demandez pas</i> de l\'aide concernant SuperHacker dans leurs fils de discussion.</p>
 ]]></string>
 
 	<string name="about_dialog_title">A propos</string>
 	<string name="about_dialog_body"><![CDATA[
-<p><i>PDroid Manager</i> est une application qui gère la configuration du service de limitation des privilèges rendu par OpenPDroid ou PDroid 2.0 Core. Il sert d\'alternative open-source pour l\'application PDroid 2.0 App de CollegeDev.</p>
-<h2>PDroid Manager est actuellement en cours de développement (alpha)</h2>
+<p><i>SuperHacker</i> est une application qui gère la configuration du service de limitation des privilèges rendu par OpenPDroid ou PDroid 2.0 Core. Il sert d\'alternative open-source pour l\'application PDroid 2.0 App de CollegeDev.</p>
+<h2>SuperHacker est actuellement en cours de développement (alpha)</h2>
 <h3>Si vous trouvez un problème:</h3>
 <b>Vérifier d\'abord qu\'il ne s\'agissent pas d\'un problème connu en <a href="https://github.com/wsot/pdroid-manager/issues">lisant les bugs connus sur mon github</a>.</b> Si ce problème s\'y trouve déjà, mais que vous avez de l\'information à ajouter, alors le mieux c\'est de l\'attacher au bug sur github. Sinon, vous pouvez toujours le rapporter dans le fil de discussion, mais ajoutez, s\'il vous plait, une référence au bug listé dans github.
 <h4>Si le problème n\'est pas listé dans github:</h4>
@@ -343,32 +343,32 @@ Modified or derivative versions of the pdroid-manager application must use an
 alternative name, rather than the name pdroid-manager.</p>
 ]]></string>
 	
-	<!-- the following sections of text are 'errors' for when a user loads PDroid Manager,
+	<!-- the following sections of text are 'errors' for when a user loads SuperHacker,
 	but doesn't have PDroid installed, or some other problem like that.
 	pdroid_error_intro is shown in all cases, and the strings below it only when
 	the error fits the problem -->
 		<string name="pdroid_error_intro"><![CDATA[
-<h4>Bienvenue à <i>PDroid Manager</i>, gestionnaire pour OpenPDroid and PDroid 2.0</h4>
-<p>Un problème a été détecté dans la communication avec le coeur de PDroid, PDroid Manager ne peut pas démarrer. Le coeur de PDroid gère la limitation de privilèges nécessaire pour que PDroid Manager soit efficace, si ce service ne fonctionne pas, PDroid Manager ne peut pas fonctionner non plus.</p>
+<h4>Bienvenue à <i>SuperHacker</i>, gestionnaire pour OpenPDroid and PDroid 2.0</h4>
+<p>Un problème a été détecté dans la communication avec le coeur de PDroid, SuperHacker ne peut pas démarrer. Le coeur de PDroid gère la limitation de privilèges nécessaire pour que SuperHacker soit efficace, si ce service ne fonctionne pas, SuperHacker ne peut pas fonctionner non plus.</p>
 ]]></string>
 
-		<string name="pdroid_error_conclusion"><![CDATA[<p>L\'installation ou la mise à jour du coeur de PDroid <b>ne peut pas</b> être éffectué automatiquement. Vous devez patcher votre ROM par une version plus récente des patchs PDroid 2.0 pour avoir une version supportée. Pour avoir de l\'aide, appuyez sur le bouton ci-dessous pour ouvrir le fil de discussion de PDroid Manager sur le forum de XDA developers.</p>]]></string>
+		<string name="pdroid_error_conclusion"><![CDATA[<p>L\'installation ou la mise à jour du coeur de PDroid <b>ne peut pas</b> être éffectué automatiquement. Vous devez patcher votre ROM par une version plus récente des patchs PDroid 2.0 pour avoir une version supportée. Pour avoir de l\'aide, appuyez sur le bouton ci-dessous pour ouvrir le fil de discussion de SuperHacker sur le forum de XDA developers.</p>]]></string>
 			
 		<string name="pdroid_error_wrong_version"><![CDATA[
-<h2>La version %s de OpenPDroid ou de PDroid 2.0 a été détectée sur votre apparail.<br /><i>PDroid Manager</i> requiert que la version 1.48 ou plus de OpenPDroid or PDroid 2.0 soit inclue dans votre ROM.</h2>]]></string>
+<h2>La version %s de OpenPDroid ou de PDroid 2.0 a été détectée sur votre apparail.<br /><i>SuperHacker</i> requiert que la version 1.48 ou plus de OpenPDroid or PDroid 2.0 soit inclue dans votre ROM.</h2>]]></string>
 	
 	<string name="pdroid_error_not_installed"><![CDATA[
-<h2>Le coeur de PDroid n\'a pas été détecté sur votre appareil.<br /><i>PDroid Manager</i> requiert que la version 1.48 ou plus de OpenPDroid or PDroid 2.0 soit inclue dans votre ROM.</h2>
+<h2>Le coeur de PDroid n\'a pas été détecté sur votre appareil.<br /><i>SuperHacker</i> requiert que la version 1.48 ou plus de OpenPDroid or PDroid 2.0 soit inclue dans votre ROM.</h2>
 ]]></string>
 
 	<string name="pdroid_error_permission"><![CDATA[
-<h4>Bienvenue à <i>PDroid Manager</i>, gestionnaire de OpenPDroid et de PDroid 2.0</h4>
-<p>Un problème a été détecté qui empêche PDroid Manager de fonctionner.</p> 
-<h2>PDroid Manager et l\'appli PDroid 2.0 de CollegeDev ne peuvent être installés sur le même appareil sans effectuer des opérations supplémentaires</h2>
-<p>A cause de la façon dont les permission Android sont utilisées par PDroid, les applis PDroid Manager et PDroid 2.0 App de CollegeDev ne peuvent être installées en même temps et fonctionner correctement. Ceci peut être corrigé en re-signant les deux applis avec une nouvelle clé. Vous trouverez des instructions dans le fil de discussion sur le forum XDA-developers.</p><p><b>NB:</b> la désinstallation de l\'appli PDroid 2.0 App de CollegeDev <i>ne supprimera pas</i> votre configuration PDroid: vous pouvez le désinstaller, puis installer PDroid Manager et votre configuration sera intact.</p>
-<p><i>Pour résoudre ce problème vous devrez désinstaller l\'appli PDroid 2.0 App de CollegeDev, et ensuite <b>désinstaller et réinstaller PDroid Manager</b>.</i></p>
+<h4>Bienvenue à <i>SuperHacker</i>, gestionnaire de OpenPDroid et de PDroid 2.0</h4>
+<p>Un problème a été détecté qui empêche SuperHacker de fonctionner.</p> 
+<h2>SuperHacker et l\'appli PDroid 2.0 de CollegeDev ne peuvent être installés sur le même appareil sans effectuer des opérations supplémentaires</h2>
+<p>A cause de la façon dont les permission Android sont utilisées par PDroid, les applis SuperHacker et PDroid 2.0 App de CollegeDev ne peuvent être installées en même temps et fonctionner correctement. Ceci peut être corrigé en re-signant les deux applis avec une nouvelle clé. Vous trouverez des instructions dans le fil de discussion sur le forum XDA-developers.</p><p><b>NB:</b> la désinstallation de l\'appli PDroid 2.0 App de CollegeDev <i>ne supprimera pas</i> votre configuration PDroid: vous pouvez le désinstaller, puis installer SuperHacker et votre configuration sera intact.</p>
+<p><i>Pour résoudre ce problème vous devrez désinstaller l\'appli PDroid 2.0 App de CollegeDev, et ensuite <b>désinstaller et réinstaller SuperHacker</b>.</i></p>
 ]]></string>
 
-	<string name="pdroid_get_support">Ouvrir le fil de discussion de PDroid Manager sur XDA developers</string>
+	<string name="pdroid_get_support">Ouvrir le fil de discussion de SuperHacker sur XDA developers</string>
 
 </resources>

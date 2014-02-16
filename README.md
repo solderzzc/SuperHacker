@@ -4,7 +4,7 @@ pdroid-manager
 Preferred management app for OpenPdroid.
   
 NOTE: THIS SOFTWARE IS PRERELEASE - IT IS CURRENTLY KNOWN TO HAVE BUGS (which you are welcome to fix).  
-Because of the signature protection used in other PDroid applications (e.g. PDroid 2.0 by CollegeDev), it is necessary to uninstall these other apps prior to installing PDroid Manager. I don't like it this way, but right now there is no straightforward and safe way to get around it.  
+Because of the signature protection used in other PDroid applications (e.g. PDroid 2.0 by CollegeDev), it is necessary to uninstall these other apps prior to installing SuperHacker. I don't like it this way, but right now there is no straightforward and safe way to get around it.  
   
 Unless explicitly noted in the file headers, the following license applies:  
 Copyright (C) 2012 Simeon J. Morgan (smorgan@digitalfeed.net)  
