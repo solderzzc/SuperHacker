@@ -120,6 +120,7 @@ public class PackageChangeHandler extends BroadcastReceiver {
 
 	    
 	private void displayNotification(Context context, NotificationType notificationType, String packageName, String label, Integer NotificationId) {
+		/*
 		//This pattern is essentially taken from
 		//https://developer.android.com/guide/topics/ui/notifiers/notifications.html
 		Resources res = context.getResources();
@@ -165,6 +166,7 @@ public class PackageChangeHandler extends BroadcastReceiver {
 		    (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 		
 		mNotificationManager.notify(NotificationId, builder.build());
+		*/
 	}
 	
 	private boolean havePermissionsChanged(Context context, Application oldApp, Application newApp) {

@@ -23,8 +23,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := android-support-v4 guava
 
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
-LOCAL_PACKAGE_NAME := PDroidManager
+LOCAL_PACKAGE_NAME := SuperHacker
 
-LOCAL_CERTIFICATE := shared
+LOCAL_CERTIFICATE := platform
 
 include $(BUILD_PACKAGE)
