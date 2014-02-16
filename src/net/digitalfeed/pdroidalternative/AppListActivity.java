@@ -154,11 +154,11 @@ public class AppListActivity extends Activity implements AppListFragment.OnAppli
 	public boolean onOptionsItemSelected(MenuItem item) {
 		super.onOptionsItemSelected(item);
 		if(GlobalConstants.LOG_FUNCTION_TRACE) Log.d(GlobalConstants.LOG_TAG, "AppListActivity:onOptionsItemSelected");
-		switch (item.getItemId()) {
-		case R.id.app_list_menu_preferences:
-			openPreferenceInterface();
-			return true;
-		}
+		//switch (item.getItemId()) {
+		//case R.id.app_list_menu_preferences:
+			//openPreferenceInterface();
+			//return true;
+		//}
 
 		return false;
 	}
@@ -239,9 +239,9 @@ public class AppListActivity extends Activity implements AppListFragment.OnAppli
      * Starts the 'preference' interface
      */
     private void openPreferenceInterface() {
-    	if(GlobalConstants.LOG_FUNCTION_TRACE) Log.d(GlobalConstants.LOG_TAG, "AppListActivity:openPreferenceInterface");
-    	Intent intent = new Intent(this, PreferencesListActivity.class);
-		startActivity(intent);
+    	//if(GlobalConstants.LOG_FUNCTION_TRACE) Log.d(GlobalConstants.LOG_TAG, "AppListActivity:openPreferenceInterface");
+    	//Intent intent = new Intent(this, PreferencesListActivity.class);
+		//startActivity(intent);
     }
 
 
